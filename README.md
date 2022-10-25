@@ -1,66 +1,53 @@
-# Forty - Jekyll Theme
+# WhatATheme
+**WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
 
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
+#### You can checkout the [**Demo Here**](https://thedevslot.github.io/WhatATheme/) :boom:
 
-![Forty Theme](assets/images/forty.jpg "Forty Theme")
+![WhatATheme](assets/images/meta.jpg)
 
-# How to Use
+# Features :sparkles:
+* Free and Easy setup
+* No Coding Required
+* Compatible with [Github Pages](https://pages.github.com/)
+* Responsive and Blogging Ready
+* HTML Compressor using [Jekyll Compress HTML](https://jch.penibelst.de/)
+* Minified CSS using SaSS
+* CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
+* Supports Latest [Jekyll 4.x](https://jekyllrb.com/) and [Bundler](https://bundler.io/)
+* Stylesheet built using SaSS
+* Comments using Disqus
+* Analytics using Google Analytics
+* Instant Search using [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search/)
 
-For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
-and [creating pages](https://jekyllrb.com/docs/pages/).
+# Installation :books:
+### System Requirements
+* [Ruby](https://www.ruby-lang.org/en/)
+* [Jekyll](https://jekyllrb.com/)
+> You can read **What is Jekyll** [**here**](https://thedevslot.github.io/WhatATheme/blog/what-is-jekyll-how-to-use-it)
+### Up and Running
+* Fork the [Repository](https://github.com/thedevslot/WhatATheme/)
+* Clone or download the repository into directory of your choice: `git clone https://github.com/thedevslot/WhatATheme.git`
+* Inside the directory run `bundle install`
+* Host WhatATheme locally by running `bundle exec jekyll s`
 
-Simply fork this repository and start editing the `_config.yml` file!
+> You can read **How to Install and use WhatATheme?** [**here**](https://thedevslot.github.io/WhatATheme/blog/how-to-install-whatatheme)
 
-> NOTE: GitHub Actions is required to deploy to GitHub Pages because GitHub [refuses to update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
+[<img src="https://i.imgur.com/TVI946Z.png" width="250" />](https://youtu.be/VfPa2c9kwhQ)
 
-# Added Features
+---
 
-* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
-* Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.
-* Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
-* Set **featured images** in front matter.
+### Content Credits :green_heart:
+* [Hero Image](https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) used as a background image in the very first section of Homepage.
+* [Author Image](https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png) used in the Author Section.
+* [Font Awesome](https://fontawesome.com/)
+* [Poppins Font](https://fonts.google.com/specimen/Poppins)
+* [Memphis Pattern](https://www.freepik.com/free-vector/memphis-pattern-background_4034913.htm#page=1&query=memphis%20pattern&position=23) used for some Social Media Images and the Favicon.
 
-# Credits
+---
 
-Original README from HTML5 UP:
+### Credits :bulb:
+* [Sneha Omer](http://sassyecoder.github.io/)
+* [Harsh Trivedi](http://harsh98trivedi.github.io/)
 
-```
-Forty by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-
-This is Forty, my latest and greatest addition to HTML5 UP and, per its incredibly
-creative name, my 40th (woohoo)! It's built around a grid of "image tiles" that are
-set up to smoothly transition to secondary landing pages (for which a separate page
-template is provided), and includes a number of neat effects (check out the menu!),
-extra features, and all the usual stuff you'd expect. Hope you dig it!
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		background-size polyfill (github.com/louisremi)
-		Misc. Sass functions (@HugoGiraudel)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
-```
-
-Repository [Jekyll logo](https://github.com/jekyll/brand) icon licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).
+### License
+The contents of this repository are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE)
