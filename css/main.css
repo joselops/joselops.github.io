@@ -1909,7 +1909,7 @@ input::-moz-focus-inner {
 .s-intro {
   width: 100%;
   height: 100vh;
-  min-height: 792px;
+  min-height: 600px;
   background-color: #050505;
 }
 
