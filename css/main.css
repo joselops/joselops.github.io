@@ -2583,7 +2583,6 @@ input::-moz-focus-inner {
 .services-list .item-service__content {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 3.6rem;
-  padding-bottom: 3.6rem;
 }
 
 .services-list .item-service__content::before {
