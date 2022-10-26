@@ -2589,7 +2589,7 @@ input::-moz-focus-inner {
   display: block;
   /* content: counter(ctr, decimal-leading-zero) "."; */
   counter-increment: ctr;
-  margin-bottom: 1rem;
+  margin-bottom: 4.8rem;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 8rem;
