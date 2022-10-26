@@ -2587,7 +2587,7 @@ input::-moz-focus-inner {
 
 .services-list .item-service__content::before {
   display: block;
-  content: counter(ctr, decimal-leading-zero) ".";
+  /* content: counter(ctr, decimal-leading-zero) "."; */
   counter-increment: ctr;
   margin-bottom: 4.8rem;
   font-family: "Roboto", sans-serif;
