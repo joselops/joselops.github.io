@@ -1930,9 +1930,9 @@ input::-moz-focus-inner {
   background-image: url(../images/hero-pic2.jpg);
   background-size: cover;
   position: absolute;
-  top: 50%;
+  top: 20%;
   right: 0;
-  bottom: 0;
+  bottom: 30%;
   left: 50%;
 }
 
