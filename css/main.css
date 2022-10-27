@@ -2569,7 +2569,7 @@ input::-moz-focus-inner {
 
 .services-list {
   max-width: 1240px;
-  margin-top: 1rem;
+  margin-top: 8.8rem;
   counter-reset: ctr;
   position: relative;
 }
