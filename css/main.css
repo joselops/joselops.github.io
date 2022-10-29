@@ -1933,8 +1933,8 @@ input::-moz-focus-inner {
   background-image: url(../images/hero-pic2.jpg);
   background-size: cover;
   position: absolute;
-  top: 40%;
-  right: 0;
+  top: 30%;
+  right: 10%;
   bottom: 20%;
   left: 50%;
 }
