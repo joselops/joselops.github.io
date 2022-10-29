@@ -2575,9 +2575,9 @@ input::-moz-focus-inner {
 }
 
 .services-list .item-service {
-  margin-bottom: 2.4rem;
+  margin-bottom: 1rem;
   padding: 0 30px;
-  min-height: 44.8rem;
+  min-height: 10rem;
 }
 
 .services-list .item-service__content {
