@@ -1934,7 +1934,7 @@ input::-moz-focus-inner {
   background-size: cover;
   position: absolute;
   top: 30%;
-  right: 10%;
+  right: 0;
   bottom: 20%;
   left: 50%;
 }
