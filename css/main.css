@@ -1930,7 +1930,7 @@ input::-moz-focus-inner {
   background-color: #02182c;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(../images/hero-pic3.jpg);
+  background-image: url(../images/hero_pic3.jpg);
   background-size: cover;
   position: absolute;
   top: 30%;
