@@ -1933,6 +1933,7 @@ input::-moz-focus-inner {
   background-image: url(../images/hero_pic3.jpg);
   background-size: cover;
   position: absolute;
+  max-width: 50%;
   top: 30%;
   right: 0;
   bottom: 20%;
