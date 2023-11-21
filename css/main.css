@@ -1931,7 +1931,7 @@ input::-moz-focus-inner {
   background-repeat: no-repeat;
   background-position: top center;
   background-image: url(../images/hero_pic3.jpg);
-  background-size: cover;
+  background-size: contain;
   position: absolute;
   max-width: 50%;
   top: 30%;
