@@ -2148,44 +2148,44 @@ input::-moz-focus-inner {
   .intro-content {
     width: 100%;
     max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 12rem;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    /* CRITICAL: Force no wrapping */
-    align-items: flex-start;
-    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15rem;
+    /* Increased top padding */
+    display: block;
+    /* Remove flex side-by-side */
     overflow: hidden;
   }
 
   .intro-text {
-    width: 60%;
-    /* Slightly smaller to give space */
+    width: 75%;
+    /* Limit width, let text wrap or go under image */
     max-width: none;
-    padding-right: 5px;
+    padding-right: 0;
     text-align: left;
     margin-top: 0;
   }
 
   .intro-pic {
-    position: relative;
-    top: auto;
+    position: absolute;
+    /* Overlap allowed */
+    top: 15rem;
+    /* Align with top content */
+    right: 20px;
+    /* Pin to right edge */
     left: auto;
     bottom: auto;
-    right: auto;
-    width: 40%;
-    max-width: 120px;
+    width: 25%;
+    max-width: 90px;
+    /* Very small */
     height: auto;
-    margin-top: 5px;
-    margin-left: 0;
-    align-self: flex-start;
-    flex-shrink: 0;
-    /* Prevent shrinking */
+    margin: 0;
+    border-radius: 3px;
+    z-index: 1;
   }
 
   .intro-pic::before {
-    opacity: .4;
+    display: none;
   }
 
   .intro-grid {
@@ -2194,27 +2194,29 @@ input::-moz-focus-inner {
 
   .intro-text h3 {
     font-size: 1.2rem;
-    line-height: 1.3;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
   }
 
   .intro-text h1 {
-    font-size: 2.2rem;
-    /* Reduced again to prevent overflow */
+    font-size: 1.6rem;
+    /* Drastically reduced */
     line-height: 1.1;
     margin-bottom: 0.5rem;
   }
 
   .intro-text .intro-subtitle {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-top: 0.5rem;
-    margin-bottom: 0.8rem;
-    line-height: 1.3;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
   }
 
   .intro-bio {
     font-size: 1.1rem;
     padding: 0;
-    line-height: 1.5;
+    line-height: 1.4;
+    max-width: 95%;
   }
 }
 
