@@ -181,8 +181,8 @@ h1,
 
   h1,
   .h1 {
-    font-size: 3.3rem;
-    letter-spacing: -.07rem;
+    font-size: 1.65rem;
+    letter-spacing: -.03rem;
   }
 
 }
@@ -2128,14 +2128,14 @@ input::-moz-focus-inner {
   }
 
   .intro-text h1 {
-    font-size: 6.2rem;
+    font-size: 3.1rem;
   }
 
 }
 
 @media screen and (max-width:900px) {
   .intro-text h1 {
-    font-size: 6rem;
+    font-size: 3rem;
   }
 
   .intro-text br {
@@ -2151,37 +2151,38 @@ input::-moz-focus-inner {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 15rem;
-    /* Increased top padding */
     display: block;
-    /* Remove flex side-by-side */
-    overflow: hidden;
+    overflow: visible;
+    /* Allow image to be seen if close to edge */
   }
 
   .intro-text {
-    width: 75%;
-    /* Limit width, let text wrap or go under image */
+    width: 100%;
+    /* Full width to prevent vertical squishing */
     max-width: none;
     padding-right: 0;
     text-align: left;
     margin-top: 0;
+    position: relative;
+    z-index: 2;
+    /* Text on top */
   }
 
   .intro-pic {
     position: absolute;
-    /* Overlap allowed */
     top: 15rem;
-    /* Align with top content */
     right: 20px;
-    /* Pin to right edge */
     left: auto;
     bottom: auto;
     width: 25%;
     max-width: 90px;
-    /* Very small */
     height: auto;
     margin: 0;
     border-radius: 3px;
-    z-index: 1;
+    z-index: 10;
+    /* Make sure image is on top of or near text */
+    opacity: 0.8;
+    /* Slight transparency if overlapping text */
   }
 
   .intro-pic::before {
@@ -2193,21 +2194,23 @@ input::-moz-focus-inner {
   }
 
   .intro-text h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.2;
     margin-bottom: 0.5rem;
   }
 
   .intro-text h1 {
-    font-size: 1.6rem;
-    /* Drastically reduced */
+    font-size: 1.3rem;
+    /* Tiny title */
     line-height: 1.1;
     margin-bottom: 0.5rem;
+    max-width: 70%;
+    /* Keep title from covering image, but let bio wrap */
   }
 
   .intro-text .intro-subtitle {
     font-size: 1.1rem;
-    margin-top: 0.5rem;
+    margin-top: 0.4rem;
     margin-bottom: 0.5rem;
     line-height: 1.2;
   }
@@ -2216,7 +2219,8 @@ input::-moz-focus-inner {
     font-size: 1.1rem;
     padding: 0;
     line-height: 1.4;
-    max-width: 95%;
+    max-width: 100%;
+    /* Allow full width wrapping */
   }
 }
 
