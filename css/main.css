@@ -2153,74 +2153,79 @@ input::-moz-focus-inner {
     padding-top: 15rem;
     display: block;
     overflow: visible;
-    /* Allow image to be seen if close to edge */
   }
 
   .intro-text {
     width: 100%;
-    /* Full width to prevent vertical squishing */
     max-width: none;
     padding-right: 0;
     text-align: left;
     margin-top: 0;
     position: relative;
     z-index: 2;
-    /* Text on top */
   }
 
   .intro-pic {
-    position: absolute;
-    top: 15rem;
-    right: 20px;
-    left: auto;
-    bottom: auto;
-    width: 25%;
-    max-width: 90px;
-    height: auto;
-    margin: 0;
+    position: absolute !important;
+    top: 15rem !important;
+    right: 20px !important;
+    left: auto !important;
+    bottom: auto !important;
+    width: 90px !important;
+    height: 120px !important;
+    max-width: 90px !important;
+    margin: 0 !important;
     border-radius: 3px;
-    z-index: 10;
-    /* Make sure image is on top of or near text */
-    opacity: 0.8;
-    /* Slight transparency if overlapping text */
+    z-index: 20 !important;
+    background-color: #02182c !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    opacity: 1 !important;
   }
 
   .intro-pic::before {
-    display: none;
+    display: none !important;
   }
 
   .intro-grid {
-    display: none;
+    display: none !important;
   }
 
   .intro-text h3 {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
     line-height: 1.2;
     margin-bottom: 0.5rem;
   }
 
   .intro-text h1 {
-    font-size: 1.3rem;
-    /* Tiny title */
-    line-height: 1.1;
-    margin-bottom: 0.5rem;
-    max-width: 70%;
-    /* Keep title from covering image, but let bio wrap */
+    font-size: 1.3rem !important;
+    line-height: 1.1 !important;
+    margin-bottom: 0.5rem !important;
+    max-width: 70% !important;
   }
 
   .intro-text .intro-subtitle {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
     margin-top: 0.4rem;
     margin-bottom: 0.5rem;
     line-height: 1.2;
   }
 
   .intro-bio {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
     padding: 0;
     line-height: 1.4;
-    max-width: 100%;
-    /* Allow full width wrapping */
+    max-width: 100% !important;
+  }
+
+  /* TARGETING THE BIG TEXT */
+  .intro-bio .lead {
+    font-size: 1.35rem !important;
+    line-height: 1.4 !important;
+    margin-bottom: 1rem !important;
+    max-width: 65% !important;
+    /* Constrain width to avoid image */
   }
 }
 
