@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joselops.github.io/sitemap.xml
