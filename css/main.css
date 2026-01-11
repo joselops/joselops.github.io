@@ -2193,35 +2193,36 @@ input::-moz-focus-inner {
   }
 
   .intro-text h3 {
-    font-size: 1.1rem !important;
+    font-size: 1.6rem !important;
     line-height: 1.2;
     margin-bottom: 0.5rem;
   }
 
   .intro-text h1 {
-    font-size: 1.3rem !important;
+    font-size: 1.6rem !important;
     line-height: 1.1 !important;
     margin-bottom: 0.5rem !important;
     max-width: 70% !important;
   }
 
   .intro-text .intro-subtitle {
-    font-size: 1.1rem !important;
+    font-size: 1.6rem !important;
     margin-top: 0.4rem;
     margin-bottom: 0.5rem;
     line-height: 1.2;
   }
 
   .intro-bio {
-    font-size: 1.2rem !important;
+    font-size: 1.5rem !important;
     padding: 0;
+    margin-top: 1rem;
     line-height: 1.4;
     max-width: 100% !important;
   }
 
   /* TARGETING THE BIG TEXT */
   .intro-bio .lead {
-    font-size: 1.35rem !important;
+    font-size: 1.6rem !important;
     line-height: 1.4 !important;
     margin-bottom: 1rem !important;
     max-width: 65% !important;
