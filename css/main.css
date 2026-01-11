@@ -3440,6 +3440,10 @@ input::-moz-focus-inner {
   padding-top: 18.4rem;
   padding-bottom: 6.4rem;
   background-color: #050505;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact-main a {
